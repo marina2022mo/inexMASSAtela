@@ -3,7 +3,7 @@ public class Main {
         IndexWeightBody service = new IndexWeightBody();
         double g = 0.17;
         double w = 120;
-        double imt = service.inwb (g,w);
+        double imt = service.indexWeightBody(g, w);
         System.out.println(imt);
     }
 }

@@ -1,8 +1,8 @@
 public class IndexWeightBody {
-    public double inwb (double g, double w) {
-        double inwb;
+    public double indexWeightBody(double g, double w) {
+        double indexWeightBody;
         double calculate;
-        calculate = w/g/g;
+        calculate = w / g / g;
         return calculate;
     }
 }
